@@ -1,0 +1,93 @@
+/* Typography */
+
+/* Sets the default font for the entire HTML document to "Fira Sans" */
+html {
+    font-family: 'Fira Sans', sans-serif;
+    }
+    
+    /* Sets the font weight for all h1, h2, h3 headings to 600 */
+    h1, h2, h3 {
+    font-weight: 600;
+    }
+    
+    /* Sets the font weight for all paragraphs to 300 and sets the line height to 18px */
+    p {
+    font-weight: 300;
+    line-height: 18px;
+    }
+    
+    /* Layout */
+    
+    /* Centers the wrapper on the page and sets its width to 80% */
+    .wrapper {
+    width: 80%;
+    margin: 0 auto;
+    }
+    
+    /* Creates a flex container with a gap of 32px between flex items */
+    .flex {
+    display:flex;
+    gap: 32px;
+    }
+    
+    /* Makes all direct child divs of the #features element take up equal amounts of space */
+    #features > div {
+    flex: 1;
+    }
+    
+    /* Sets a maximum height of 300px for all images and sets the width to automatically adjust to the size of the image */
+    img {
+    max-height: 300px;
+    width: auto;
+    }
+    
+    /* Adds padding to all main section elements */
+    main section {
+    padding: 60px 20px 0 20px;
+    }
+    
+    /* Sets the default font for the entire body to "Fira Sans" */
+    body {
+    font-family: 'Fira Sans', sans-serif;
+    }
+    
+    /* Styles the links within the navigation (nav) element with a background color, padding, color, text decoration, rounded borders, and a margin */
+    nav a {
+    display: inline-block;
+    padding: 1em 1em;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1em;
+    }
+    
+    /* Styles all tables to be 100% wide and collapse borders */
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    }
+    
+    /* Styles the background color and font weight of all table headings (th) */
+    table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 1em;
+    }
+    
+    /* Styles the background color of every even numbered table row */
+    table tr:nth-child(even) {
+    background-color: #f9f9f9;
+    }
+    
+    /* Styles the padding of all table cells (td) */
+    table td {
+    padding: 1em;
+    }
+    
+    /* Styles ordered lists (ol) and unordered lists (ul) to have a margin of 1em at the top and bottom and a left padding of 2em */
+    ol, ul {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+    }
